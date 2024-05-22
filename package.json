@@ -1,0 +1,23 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "axios": "^1.6.8",
+    "discord.js": "^14.12.1",
+    "js-yaml": "^4.1.0",
+    "libsodium-wrappers": "^0.7.13",
+    "mongoose": "^8.2.2",
+    "play-dl": "^1.9.7",
+    "tldts": "^6.1.13",
+    "url-regex-safe": "^4.0.0"
+  }
+}

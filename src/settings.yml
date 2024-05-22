@@ -1,0 +1,83 @@
+#########################################
+#       SERVER BOT CONFIGURATION        #
+#########################################
+
+
+# Duck's Server
+guild:
+  # ID of guild for bot to run on
+  id: "1127652502452580495"
+
+  # Feature for creating 'private' voice channels
+  privates:
+    # Disable or enable feature
+    enabled: true
+
+    # ID of channel to create privates in
+    createChannelId: "1127654265360502834"
+
+    # ID of category for privates to be created and put in. Empty string for no category
+    privateCategoryId: "1127654193029722122"
+    
+    # Maximum privates at one time. Set to -1 for unlimited
+    maxPrivates: 6
+
+    # Default name for private when created
+    privateDefaultName: "Private"
+
+    # List of emojis which will be picked as part of the channel name
+    emojis: ["🦍", "🐧", "🦅", "🐈", "🐘", "🦔"]
+
+  ban:
+    # Disable or enable feature
+    enabled: true
+    
+    # Maximum ban duration in seconds. Set to -1 for unlimited
+    maxDuration: 315360000
+
+  automod:
+    # Whether to enable this feature
+    enabled: true
+
+    # Allows and prevents certain types of files
+    attachments:
+      # Feature disabled or enabled?
+      enabled: true
+      
+      # Whether specified extensions will be whitelisted or blacklisted
+      mode: "whitelist"
+    
+    urls:
+      # Whether to enable this feature
+      enabled: true
+
+      # Whether specified domains will be whitelisted or blacklisted
+      mode: "whitelist"
+  
+  mute:
+  # Maximum mute duration in seconds. Set to -1 for unlimited
+    maxDuration: 315360000
+    
+  
+  experience:
+    # XP gained per message
+    xpPerMessage: 4
+  
+  # logs for the guild
+  logs:
+    # Disable or enable feature
+    enabled: true
+
+    # Voice leave/join logs
+    groups: 
+    
+    voice:
+      id: "1129558460091076658"
+      
+    message:
+      id: "1130210138758844426"
+    
+    admin:
+      id: "1130210138758844426"
+
+    
